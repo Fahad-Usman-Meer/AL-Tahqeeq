@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62F1C70F-8ACC-499D-89C4-E53BE9E81150}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AL_Tahqeeq</RootNamespace>
+    <AssemblyName>AL_Tahqeeq</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.1.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.1.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.1.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.2.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.2.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.2.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.2.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="CommonAhadees.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MaslaController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="images\001\1111.png" />
+    <Content Include="images\005_images\1_salam_ya_rasuul_musannaf.jpg" />
+    <Content Include="images\005_images\2_salam_ya_rasuul_maalik.jpg" />
+    <Content Include="images\005_images\3_salam_ya_rasuul_baihaqi.jpg" />
+    <Content Include="images\005_images\4_salam_ya_rasuul_fazal_salaat.jpg" />
+    <Content Include="images\005_images\aisha_sokno_dafan.jpg" />
+    <Content Include="images\005_images\albani_behas.jpg" />
+    <Content Include="images\005_images\alsuddi_zaeef_darqutni.jpg" />
+    <Content Include="images\005_images\alsuddi_zaeef_zubair1.jpg" />
+    <Content Include="images\005_images\alsuddi_zaeef_zubair2.jpg" />
+    <Content Include="images\005_images\ambia_ko_mitti_nahi_khaati.jpg" />
+    <Content Include="images\005_images\ambia_qabar_mein_namazein.jpg" />
+    <Content Include="images\005_images\ambia_zinda_faiz_ul_bari.jpg" />
+    <Content Include="images\005_images\attaihaat_as_kahani.jpg" />
+    <Content Include="images\005_images\attaihaat_wali_guftagu.jpg" />
+    <Content Include="images\005_images\dummy_qabrein.jpg" />
+    <Content Include="images\005_images\huzur_dunia_m_aty_hn_muhannad.jpg" />
+    <Content Include="images\005_images\huzur_dunia_m_aty_hn_rizvia.jpg" />
+    <Content Include="images\005_images\huzuur_marny_k_baad_zinda_faizUlBari.jpg" />
+    <Content Include="images\005_images\h_umar_ka_paun.jpg" />
+    <Content Include="images\005_images\khud_salam_sunta.jpg" />
+    <Content Include="images\005_images\nabi_ka_janaza.jpg" />
+    <Content Include="images\005_images\nabi_ko_ghusal_ali.jpg" />
+    <Content Include="images\005_images\parrosi_par_shirk_ka_ilzaam.jpg" />
+    <Content Include="images\005_images\qabar_mein_aamaal_paish.jpg" />
+    <Content Include="images\005_images\qabar_mein_dunyawi_zinda_muhannad.jpg" />
+    <Content Include="images\005_images\qabar_m_shab_baashi.jpg" />
+    <Content Include="images\005_images\qabar_sy_azaan_ki_awaaz.jpg" />
+    <Content Include="images\005_images\qabar_sy_haath_nikla_faizan_sunnat.jpg" />
+    <Content Include="images\005_images\qabar_sy_haath_nikla_fazail_hajj.jpg" />
+    <Content Include="images\005_images\related_books_cover_2.jpg" />
+    <Content Include="images\005_images\bukhari_muslim_mein_baab.jpg" />
+    <Content Include="images\005_images\qabar_ko_garha_kaha.jpg" />
+    <Content Include="images\005_images\related_books_cover.jpg" />
+    <Content Include="images\005_images\ruuh_lauta_di_baihaqi.jpg" />
+    <Content Include="images\005_images\ruuh_lauta_di_baihaqi_alaitqaad.jpg" />
+    <Content Include="images\005_images\sharamgaah_muu_mein.jpg" />
+    <Content Include="images\005_images\waseela_shakhsi_zaeef.jpg" />
+    <Content Include="images\005_images\ziarat_qubuur_k_ahkaam.jpg" />
+    <Content Include="images\005_images\zinda_dafan.jpg" />
+    <Content Include="images\005_images\zinda_dafan_ref.jpg" />
+    <Content Include="images\008_images\qabar_ko_butt_na_bnao.jpg" />
+    <Content Include="images\008_images\ummat_gumrahi_par_jama_nahi.jpg" />
+    <Content Include="images\148_images\do_groh_dozakh.jpg" />
+    <Content Include="images\Masla_icons\M_008_kalma_go_mushrik_icon.jpg" />
+    <Content Include="images\Masla_icons\M_021_bivion_k_haqooq_icon.jpg" />
+    <Content Include="images\Masla_icons\M_005_hayat_un_nabi_icon.jpg" />
+    <Content Include="images\Masla_icons\M_007_hazir_o_nazir_icon.jpg" />
+    <Content Include="images\Masla_icons\M_001_imam_ul_ambia_icon.jpg" />
+    <Content Include="images\Masla_icons\M_006_A_ilm_ul_ghaib_icon.jpg" />
+    <Content Include="images\Masla_icons\M_148_sabhi_muslim_icon.jpg" />
+    <Content Include="images\Masla_icons\M_015_teen_talaaq_icon.jpg" />
+    <Content Include="images\land_page_cover.png" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="PDFs\001_P1.pdf" />
+    <Content Include="PDFs\001_P2.pdf" />
+    <Content Include="PDFs\006_A_P1.pdf" />
+    <Content Include="PDFs\006_A_P2.pdf" />
+    <Content Include="PDFs\007_P1.pdf" />
+    <Content Include="PDFs\007_P2.pdf" />
+    <Content Include="PDFs\008.pdf" />
+    <Content Include="PDFs\015.pdf" />
+    <Content Include="PDFs\021.pdf" />
+    <Content Include="PDFs\148.pdf" />
+    <Content Include="PDFs\179.pdf" />
+    <Content Include="PDFs\005_P1.pdf" />
+    <Content Include="PDFs\005_P2.pdf" />
+    <Content Include="PDFs\005_P3.pdf" />
+    <Content Include="PDFs\005_P4.pdf" />
+    <Content Include="fonts\MehrNastaliqWeb.ttf" />
+    <None Include="Properties\PublishProfiles\Al_tahqeeq.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <None Include="Scripts\_references.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Masla\M_001_imam_ul_ambia.cshtml" />
+    <Content Include="Views\Masla\M_006_A_ilm_ul_ghaib.cshtml" />
+    <Content Include="Views\Masla\M_007_hazir_o_nazir.cshtml" />
+    <Content Include="Views\Masla\M_148_sabhi_muslim.cshtml" />
+    <Content Include="Views\Masla\M_005_hayat_un_nabi.cshtml" />
+    <Content Include="Views\Masla\M_008_kalma_go_mushrik.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_katib_e_wahi_murtad_partial.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_mujh_par_jhuut_naa_bolo.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_hoz_par_intzar_partial.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_biddatein_kutty_ka_zehar.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_ummat_gumrahi_par_jama_nahi.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_yahudo_nasara_ki_pairwi.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_ghar_mimber_zameen_jannat.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_assalamo_alaika_ya_rasuul.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_do_qabar_walon_ko_azaab.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_jannat_k_aath_darwazy.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_attahiyat_quran_ki_tara_sikhaya.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_qabar_ki_dua.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_sharamgah_muu_mein.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_qabar_mein_namaz.cshtml" />
+    <Content Include="Views\Shared\AhadeesDB\_waseela_shakhsi.cshtml" />
+    <Content Include="Views\Masla\M_021_bivion_k_haqooq.cshtml" />
+    <Content Include="Views\Masla\M_015_teen_talaaq.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Manage.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\_RemoveAccountPartial.cshtml" />
+    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Masla\M_001.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1158</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1158/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

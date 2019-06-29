@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 6%;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 5px;
+            border-radius: 50%;
+        }
+
+            .fa:hover {
+                opacity: 0.4;
+                color:white;
+            }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-instagram {
+            background: #F56040;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    @{
+     // if (Session["SelectedLanguage"] == null)
+     // {
+     //     Session["SelectedLanguage"] = "urdu";
+     // }
+    }
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink(Common.SITE_NAME, "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    
+                    @*<li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Get PDF Page", "GetPDF", "Masla", new { target = "_blank" })</li>*@
+                    
+                    @*<li>@Html.ActionLink("001 masla", "M_001", "Masla")</li>*@
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Mas'alah in PDFs
+                            <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li>@Html.ActionLink("001 - Part-1 - Mas'alah Imam ul Ambia ﷺ ki Dawat e Quran ",
+                                          "getPDF", "Masla", new { fileName = "001_P1" }, new { target = "_blank" })</li>
+                            <li>@Html.ActionLink("001 - Part-2 - Mas'alah Imam ul Ambia ﷺ ki Dawat e Quran ",
+                                     "getPDF", "Masla", new { fileName = "001_P2" }, new { target = "_blank" })</li>
+                            
+
+
+                            <li>@Html.ActionLink("006 - A - Part-1 - Mas'alah Ilm ul Ghaib",
+                                     "getPDF", "Masla", new { fileName = "006_A_P1" }, new { target = "_blank"})</li>
+                            <li>@Html.ActionLink("006 - A - Part-2 - Mas'alah Ilm ul Ghaib",
+                                     "getPDF", "Masla", new { fileName = "006_A_P2"}, new { target = "_blank" })</li>
+                            
+
+
+
+                            <li>@Html.ActionLink("005 - Part-1 - Mas'alah Hayaat Un Nabi ﷺ",
+                                     "getPDF", "Masla", new { fileName = "005_P1" }, new { target = "_blank" })</li>
+                            <li>
+                                @Html.ActionLink("005 - Part-2 - Mas'alah Hayaat Un Nabi ﷺ",
+                                     "getPDF", "Masla", new { fileName = "005_P2" }, new { target = "_blank" })</li>
+                            <li>@Html.ActionLink("005 - Part-3 - Mas'alah Hayaat Un Nabi ﷺ",
+                                     "getPDF", "Masla", new { fileName = "005_P3" }, new { target = "_blank" })</li>
+                        <li>@Html.ActionLink("005 - Part-4 - Mas'alah Hayaat Un Nabi ﷺ",
+                                     "getPDF", "Masla", new { fileName = "005_P4" }, new { target = "_blank" })</li>
+
+
+                            <li>@Html.ActionLink("007 - Part-1 - Mas'alah Hazir O Nazir",
+                                     "getPDF", "Masla", new { fileName = "007_P1"}, new { target = "_blank" })</li>
+                            <li>@Html.ActionLink("007 - Part-2 - Mas'alah Hazir O Nazir",
+                                     "getPDF", "Masla", new { fileName = "007_P2" }, new { target = "_blank" })</li>
+
+
+                            <li>@Html.ActionLink("008 - Mas'alah Kalma Go Mushrik",
+                                     "getPDF", "Masla", new { fileName = "008"}, new { target = "_blank" })</li>
+
+
+                            <li>@Html.ActionLink("015 - Mas'alah Teen Talaak, Halala or Harama",
+                                     "getPDF", "Masla", new { fileName = "015" }, new { target = "_blank" })</li>
+
+
+                            <li>@Html.ActionLink("021 - Mas'alah Bevion k islami Haqooq ka bayan",
+                                     "getPDF", "Masla", new { fileName = "021" }, new { target = "_blank" })</li>
+
+
+                            <li>@Html.ActionLink("148 - Mas'alah Brailvi, DeoBandi, AhleHadees, Shia Sabhi Muslim hein",
+                                     "getPDF", "Masla", new { fileName = "148" }, new { target = "_blank" })</li>
+
+
+                            <li>@Html.ActionLink("179 - E-M-A-M Logon ki ADAALAT mein",
+                                     "getPDF", "Masla", new { fileName = "179" }, new { target = "_blank" })</li>
+
+
+                        </ul>
+
+                    </li>
+
+
+                    @*<li>@Html.ActionLink("About", "About", "Home")</li>
+    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+                </ul>
+
+                @*<ul class="nav navbar-nav navbar-right">
+        <li>
+            @if (Session["SelectedLanguage"] == enmLanguage.URDU.ToString())
+            { <label id="lbl_romanUrdu"> Roman Urdu Mein Parhein </label>}
+            @if (Session["SelectedLanguage"] == enmLanguage.ROMAN_URDU.ToString())
+            { <label id="lbl_romanUrdu">  "اردو میں پڑھیں" </label>}
+
+            @Html.ActionLink(
+             (Session["SelectedLanguage"] == enmLanguage.URDU.ToString()) ? "Roman Urdu Mein Parhein" : "اردو میں پڑھیں",
+                "", "", routeValues: null, htmlAttributes: new { id = "lbl_romanUrdu" })
+        </li>
+
+        <li id="txtSelectedLanguageHidden" style="display:none"></li>
+
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>*@
+
+          @* @Html.Partial("_LoginPartial")*@
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    <script>
+
+        //$(document).ready(function () {
+            // alert("Subhan Allah");
+
+        @*$("#lbl_romanUrdu").on("click", function () {
+                //alert($("#romanUrdu").text());
+
+                var selectedLang = '@Session["SelectedLanguage"]';
+                alert(selectedLang);
+
+                //var selectedLang = $("#txtSelectedLanguageHidden").text();
+
+                if (selectedLang == '@enmLanguage.URDU.ToString()' )// "urdu")
+                {
+                    //$("#txtSelectedLanguageHidden").text("roman");
+                    @{Session["SelectedLanguage"] = enmLanguage.ROMAN_URDU.ToString();}
+
+                    $("#lbl_romanUrdu").text("اردو میں پڑھیں");
+
+                    alert("Now Session Value : " + '@Session["SelectedLanguage"]');
+                }
+                else if (selectedLang == '@enmLanguage.ROMAN_URDU.ToString()' ) // "" || selectedLang == "roman")
+                {
+                    //$("#txtSelectedLanguageHidden").text("urdu");
+                    @{Session["SelectedLanguage"] = enmLanguage.URDU.ToString();}
+
+                    $("#lbl_romanUrdu").text("Roman Urdu Mein Parhein");
+
+                    alert("Now Session Value : " + '@Session["SelectedLanguage"]');
+                }
+
+    });*@
+       // });
+
+    </script>
+    
+    <div class="container body-content">
+
+        <div id="ibtadai_kalmaat">
+        <div class="red">
+            <h3 class="urdu_center">
+
+                میرے مسُلمان بھائیو ! شیطانی وَسوَسوں کے باوجود اَپنی موت سے پہلے پہلے صِرف ایک مرتبہ اِس تحریر کو اوّل تا آخر لازمی، لازمی، لازمی پڑھ لیں! جَزاکمُ اللہ خیراً
+
+            </h3>
+        </div>
+            
+        <hr />
+
+        <div class="row">
+            <div class="text-left col-sm-6 blue">
+                Written By : Fahad Usman Meer
+            </div>
+            <div class="text-right urdu col-sm-6 blue">
+                تصنیف کردہ : فہد عثمان میر
+            </div>
+        </div>
+        <hr />
+        </div>
+
+        @RenderBody()
+
+
+      @if ( Session["currPage"] != null && !string.IsNullOrEmpty( Session["currPage"].ToString() ))
+      {
+        <hr />
+            <br />
+            <h3 class="urdu_center red">
+                <span class="label label-danger">
+                    اختتامی دعا
+                </span>
+                <br />
+                <br />
+                اللہ تعالیٰ سے دعا ہے کہ جو حقّ بات میَں نے لکھی اُسے اللہ پاک ہمارے دِلوں میں راسخ فرمائے، اگر جذبات میں مُجھ سے کوئی غلط بات لکھی گئی تو اُسے ہمارے دِلوں سے مَحَو کر دے (یعنی مِٹا دے)، ہمیں کتاب و سُنت کی تعلیمات پر عمل کر کے دوسرے بھائیوں تک پہنچانے کی توفیق عطا فرمائے (آمین)۔
+            </h3>
+      }
+
+            <hr />
+
+        <div class="row urdu_center">
+             
+            <h1 class="urdu_center">
+                <span class="label label-success">
+                    متعلقہ اور اہم مضامین
+                </span>
+             </h1>   
+            
+            @{
+                var list = Common.List_of_Urdu_Maslas;
+
+                if (Session["currPage"] == null)
+                {   Session["currPage"] = string.Empty;}
+                
+                foreach (var masla in list)
+                {
+                    if ( !masla.Key.Equals(Session["currPage"].ToString(), StringComparison.OrdinalIgnoreCase))
+                    { 
+                        var imgLocation = string.Format("~/images/Masla_icons/{0}_icon.jpg", masla.Key);
+                        var maslaLink = string.Format("~/Masla/{0}", masla.Key);
+                        
+                        <a href="@Url.Content(maslaLink)">
+                            <div class="col-md-4">
+                                <blockquote>
+
+                                    <img class="img-thumbnail" style="width:100%; height: 230px" src="@Url.Content(imgLocation)" />
+                                    
+                                    <h3 class="urdu_center"> @masla.Value </h3>
+                                    
+                                        @*<p>
+                                        @* @Html.ActionLink("مزید پڑھیں۔۔۔", "GetView", "Masla", new { viewName = masla.Key }, new { @class = "btn btn-primary" })
+
+                                        <label class="btn btn-default"> مزید پڑھیں۔۔۔  &raquo;</label>
+                                    </p>*@
+                                </blockquote>
+                            </div>
+                        </a>
+                    }
+                }
+            }
+        </div>
+
+        <hr />
+        <blockquote class="urdu_center">
+            طالبِ دُعا:  فہد عثمان میر
+            <br />
+           @* فیس بُک لنِک
+    <br />
+    <a href="https://www.facebook.com/chill.fish.1">
+        Facebook Link - Fahad Usman Meer
+    </a>
+*@
+            <!-- Add font awesome icons -->
+
+            <a href="https://web.facebook.com/altahqeeq/" class="fa fa-facebook"> </a>
+            <a href="https://twitter.com/TahqeeqAl" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/al_tahqeeq/" class="fa fa-instagram"></a>
+            
+        </blockquote>
+        
+
+        <footer>
+
+            @{
+                string version = typeof(AL_Tahqeeq.MvcApplication).Assembly.GetName().Version.ToString();
+               version = version.Substring(0 , version.Length-4); 
+            }
+
+            <p>&copy; @DateTime.Now.Year - @Common.SITE_NAME v(@version)
+            </p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+
+
+</html>
+

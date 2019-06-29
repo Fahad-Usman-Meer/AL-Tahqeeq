@@ -1,0 +1,193 @@
+﻿
+@font-face {
+  font-family: 'MehrNastaliqWeb';
+  src: url('../fonts/MehrNastaliqWeb.ttf') format('truetype');
+  /*src: url('../fonts/JameelNooriNastaleeq.ttf') format('truetype');*/
+}
+
+.urdu
+{
+    font-family : 'MehrNastaliqWeb';
+    text-align  :  right;
+}
+
+.urdu_center
+{
+    font-family : 'MehrNastaliqWeb';
+    text-align  :  center;
+}
+
+
+
+.arabic
+{
+    font-family : 'Traditional Arabic';
+    color       : blue;
+    text-align  : center;
+    font-weight : bold;
+}
+
+.red{
+    color   :red;
+    -webkit-print-color-adjust: exact; 
+}
+
+.green{
+    color   : green;
+    -webkit-print-color-adjust: exact; 
+}
+.ilmi_point_heading{
+    color   : #0035ff;
+}
+
+.blue{
+    color   : blue;
+    -webkit-print-color-adjust: exact; 
+}
+td { 
+    padding-right   : 8px;
+    text-align      : left;
+    border-width    :1px;
+}
+th{
+    text-align  :center;
+}
+
+
+
+/*img{
+    height : 400px;
+    width:auto;
+}*/
+
+/*.line {
+    background-color: #149dcc;
+    color: #149dcc;
+    height: 2px;
+    margin: 0 auto;
+    width : 50%;
+}*/
+
+blockquote {
+    padding: 10px 10px 10px 20px;
+    /*font-size: 1.09rem;*/
+    position: relative;
+    border-color: #149dcc;
+    border-width: 3px;
+    text-align:center;
+}
+
+focus
+{
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.focus
+{
+    font-weight: bold;
+    /*text-decoration:underline;*/
+}
+
+.ref
+{
+    color : blue;
+}
+
+
+.ul-urdu
+{
+    list-style-type:square;
+    direction: rtl;
+}
+
+
+
+@media print {
+    .red .arabic {
+        -webkit-print-color-adjust: exact; 
+        
+    }
+
+}
+
+@media screen {
+    .red .arabic {
+        color: green !important;
+    }
+}
+
+
+@media print {
+    tr.vendorListHeading {
+        background-color: #1a4567 !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
+
+@media print {
+    .vendorListHeading th {
+        color: white !important;
+    }
+}
+
+
+
+
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+
+
+
+/*
+    
+    for Smiley  code            &#9786;
+
+    
+    
+    */
