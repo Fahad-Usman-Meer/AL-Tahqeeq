@@ -8,6 +8,7 @@ namespace AL_Tahqeeq
     public static class CommonAhadees
     {
         private static string HadeesFolderPath = "AhadeesDB/";
+        
 
         // ****************************************************************
         // *** To See Original Ahaadess, Follow the Partials Accordingly  *
@@ -44,6 +45,18 @@ namespace AL_Tahqeeq
         public static readonly string waseela_shakhsi = string.Format("{0}_waseela_shakhsi", HadeesFolderPath);
 
         public static readonly string jannat_k_aath_darwazy = string.Format("{0}_jannat_k_aath_darwazy", HadeesFolderPath);
+
+        public static readonly string attahiaat_mairaaj_ki_guftagu_hy = string.Format("{0}attahiaat_mairaaj_ki_guftagu_hy", HadeesFolderPath);
+
+        public static readonly string attahiaat_sy_sab_bandon_par_salaam_pohanchta_hy = string.Format("{0}attahiaat_sy_sab_bandon_par_salaam_pohanchta_hy", HadeesFolderPath);
+
+        public static readonly string mairaaj_k_baad_intihai_paryshan_kion = string.Format("{0}mairaaj_k_baad_intihai_paryshan_kion", HadeesFolderPath);
+
+        public static readonly string sattar_ansari_dhoky_sy_shaheed = string.Format("{0}sattar_ansari_dhoky_sy_shaheed", HadeesFolderPath);
+
+        public static readonly string qabar_sy_hath_bahir_nikla = string.Format("{0}qabar_sy_hath_bahir_nikla", HadeesFolderPath);
+
+        public static readonly string masjid_ki_safai_karny_wali_orat = string.Format("{0}masjid_ki_safai_karny_wali_orat", HadeesFolderPath);
 
 
 

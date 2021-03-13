@@ -27,17 +27,29 @@ namespace AL_Tahqeeq.Controllers
         /// <returns></returns>
         public ActionResult GetView(string viewName)
         {
-            if( ! string.IsNullOrEmpty(viewName))
+            try
             {
-                ViewBag.englishName = Common.List_of_English_Maslas[viewName];
-                ViewBag.urduName = Common.List_of_Urdu_Maslas[viewName];
+                if (!string.IsNullOrEmpty(viewName))
+                {
+                    ViewBag.englishName = Common.List_of_English_Maslas[viewName];
+                    ViewBag.urduName = Common.List_of_Urdu_Maslas[viewName];
+                    ViewBag.TitleIconPath = Common.List_of_Thumbnails_Path[viewName];
 
-                Session["currPage"] = viewName; // use to remove current page from Related Articles
+                    Session["currPage"] = viewName; // use to remove current article from Related Articles
 
-                return View(viewName);
+                    return View(viewName);
+                }
             }
-            return View("404");
+            catch (Exception ex)
+            {
+             //   throw ex;
+            }
+
+            ViewBag.TitleIconPath = Common.List_of_Thumbnails_Path["error"];
+            return View("error");
         }
+
+        
 
         public ActionResult Contact()
         {
@@ -48,13 +60,28 @@ namespace AL_Tahqeeq.Controllers
 
         public FileResult GetPDF(string fileName)
         {
-            if (!string.IsNullOrEmpty(fileName))
+            string filePath = "/PDFs/error.html"; // default
+            try
             {
-                string filePath = string.Format("/PDFs/{0}.pdf", fileName);
-                return File(Server.MapPath(filePath), "application/pdf");
-                //return File(Server.MapPath("/Test/Sample.pdf"), "application/pdf");
+                if (!string.IsNullOrEmpty(fileName))
+                {
+                    filePath = string.Format("/PDFs/{0}.pdf", fileName);
+                    return File(Server.MapPath(filePath), "application/pdf");
+                    //return File(Server.MapPath("/Test/Sample.pdf"), "application/pdf");
+                }
             }
-            return null;
+            catch (Exception ex)
+            {
+               // throw ex;
+                //filePath = ;
+            }
+            
+            return File(Server.MapPath(filePath), "html");
+        }
+
+        private ViewResult ShowError()
+        {
+            return View("Error");
         }
 
 
