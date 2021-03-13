@@ -6,503 +6,962 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\inetpub\wwwroot</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\AL_Tahqeeq</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="ads.txt">
+      <publishTime>03/09/2019 18:19:27</publishTime>
+    </File>
     <File Include="bin/AL_Tahqeeq.dll">
-      <publishTime>06/29/2019 11:20:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/AL_Tahqeeq.pdb">
-      <publishTime>06/29/2019 11:20:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>02/27/2019 05:49:59</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>02/27/2019 05:49:59</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>06/29/2019 11:25:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>06/29/2019 11:25:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>02/27/2019 05:50:05</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>02/27/2019 05:50:05</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
-      <publishTime>02/27/2019 05:50:13</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
-      <publishTime>02/27/2019 05:50:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
-      <publishTime>02/27/2019 05:50:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.dll">
-      <publishTime>02/27/2019 05:50:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
-      <publishTime>02/27/2019 05:50:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
-      <publishTime>02/27/2019 05:50:17</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.dll">
-      <publishTime>02/27/2019 05:50:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
-      <publishTime>02/27/2019 05:50:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Google.dll">
-      <publishTime>02/27/2019 05:50:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
-      <publishTime>02/27/2019 05:50:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
-      <publishTime>02/27/2019 05:50:17</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
-      <publishTime>02/27/2019 05:50:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>02/27/2019 05:49:54</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>02/27/2019 05:49:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Owin.dll">
-      <publishTime>02/27/2019 05:50:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>02/27/2019 05:49:53</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>02/27/2019 05:49:55</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>02/27/2019 05:49:52</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>02/27/2019 05:49:51</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>02/27/2019 05:49:53</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>02/27/2019 05:49:53</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>02/27/2019 05:49:53</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>02/27/2019 05:49:59</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>03/02/2019 13:49:23</publishTime>
+      <publishTime>09/11/2019 22:29:34</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>02/27/2019 06:09:45</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>07/03/2019 23:52:58</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>06/29/2019 11:20:01</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>02/27/2019 05:49:05</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>02/27/2019 06:09:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>02/27/2019 06:09:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>02/27/2019 06:09:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>02/27/2019 06:09:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/JameelNooriNastaleeq.ttf">
-      <publishTime>02/27/2019 06:09:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/MehrNastaliqWeb.ttf">
-      <publishTime>06/29/2019 11:13:05</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/001/1111.png">
       <publishTime>03/02/2019 14:19:46</publishTime>
     </File>
+    <File Include="images/001_images/aakhirat_mein_nakaami_ki_asal_waja_apny_buzurgon_ki_andha_dhund_pairvi_karna_hy.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/allah_ka_raasta_or_shaitan_ka_raasta.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/allah_or_rasuul_k_ilawa_koi_aur_hujjat_or_daleel_nahi.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/deen_islam_ki_sachi_taleemaat_zaati_gumaan_or_be_asal_o_be_buniyad_khialaat_ki_bajae_sirf_sahih_ilm_par_qaim_hein.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/deen_islam_k_ilawa_koi_aur_deen_nijaat_nahi_karwa_sakta.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/ghalba_toheed_or_ibaadat_sirf_allah_ki.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/hidayat_hasil_karny_k_liye_koshish_kro_baat_ghor_sy_suno_or_aqal_istamal_kro.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/hmari_baat_diwar_par_maar_do_all_imam.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/ibadat_or_dua_yani_ghaib_mein_madad_sirf_allah_sy_1.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/islam_mein_2_ilm_hujjat_quran_or_hadees.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/jo_allah_chahy_or_jo_aap_chahein.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/quran_hadees_ijmaa_or_ijtihaad.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/quran_k_ilawa_kisi_bhi_kitab_sy_islam_ki_dawat_tableegh_or_jihaad_mumkin_nahi.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/quran_mein_firqa_wariat_ki_muzammat_sirat_e_mustaqeem_ki_pehchaan_or_naaqabil_e_muaafi_jurm.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/quran_or_hadees_so_feesad_mehfuuz_hein.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/quran_or_sunnat_chhorr_kr_jaa_raha_hun_mustadrik_haakim.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/toraat_mein_allah_ka_paigam.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/001_images/uzair_a_s_ny_toraat_dubara_likh_di.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
     <File Include="images/005_images/1_salam_ya_rasuul_musannaf.jpg">
-      <publishTime>05/17/2019 10:12:31</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/2_salam_ya_rasuul_maalik.jpg">
-      <publishTime>05/17/2019 10:12:31</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/3_salam_ya_rasuul_baihaqi.jpg">
-      <publishTime>05/17/2019 10:12:31</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/4_salam_ya_rasuul_fazal_salaat.jpg">
-      <publishTime>05/17/2019 10:12:31</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/aisha_sokno_dafan.jpg">
-      <publishTime>06/15/2019 17:55:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/albani_behas.jpg">
-      <publishTime>06/15/2019 06:31:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/alsuddi_zaeef_darqutni.jpg">
-      <publishTime>06/15/2019 07:54:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/alsuddi_zaeef_zubair1.jpg">
-      <publishTime>06/15/2019 07:58:42</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/alsuddi_zaeef_zubair2.jpg">
-      <publishTime>06/15/2019 07:58:42</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/ambia_ko_mitti_nahi_khaati.jpg">
-      <publishTime>05/19/2019 12:47:45</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/ambia_qabar_mein_namazein.jpg">
-      <publishTime>05/17/2019 20:23:09</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/ambia_zinda_faiz_ul_bari.jpg">
-      <publishTime>05/18/2019 10:06:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/attaihaat_as_kahani.jpg">
-      <publishTime>06/15/2019 06:22:53</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/attaihaat_wali_guftagu.jpg">
-      <publishTime>06/14/2019 20:20:01</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/bukhari_muslim_mein_baab.jpg">
-      <publishTime>05/14/2019 18:33:56</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/dummy_qabrein.jpg">
-      <publishTime>05/18/2019 14:06:53</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/huzur_dunia_m_aty_hn_muhannad.jpg">
-      <publishTime>06/15/2019 18:02:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/huzur_dunia_m_aty_hn_rizvia.jpg">
-      <publishTime>06/15/2019 18:05:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/huzuur_marny_k_baad_zinda_faizUlBari.jpg">
-      <publishTime>05/18/2019 10:55:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/h_umar_ka_paun.jpg">
-      <publishTime>05/17/2019 20:10:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/khud_salam_sunta.jpg">
-      <publishTime>06/15/2019 07:48:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/005_images/kia_attahiyaat_mairaj_ki_guftagu_hy.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/nabi_ka_janaza.jpg">
-      <publishTime>05/17/2019 10:47:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/nabi_ko_ghusal_ali.jpg">
-      <publishTime>05/17/2019 10:34:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/parrosi_par_shirk_ka_ilzaam.jpg">
-      <publishTime>05/18/2019 13:41:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/qabar_ko_garha_kaha.jpg">
-      <publishTime>05/15/2019 18:15:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/qabar_mein_aamaal_paish.jpg">
-      <publishTime>05/19/2019 12:10:59</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/qabar_mein_dunyawi_zinda_muhannad.jpg">
-      <publishTime>05/18/2019 12:39:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/qabar_m_shab_baashi.jpg">
-      <publishTime>06/15/2019 18:31:05</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/qabar_sy_azaan_ki_awaaz.jpg">
-      <publishTime>06/15/2019 14:50:24</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/qabar_sy_haath_nikla_faizan_sunnat.jpg">
-      <publishTime>06/15/2019 15:07:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/qabar_sy_haath_nikla_fazail_hajj.jpg">
-      <publishTime>06/15/2019 15:07:17</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/related_books_cover.jpg">
-      <publishTime>05/15/2019 18:02:52</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/related_books_cover_2.jpg">
-      <publishTime>05/15/2019 18:19:13</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/ruuh_lauta_di_baihaqi.jpg">
-      <publishTime>05/18/2019 10:13:31</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/ruuh_lauta_di_baihaqi_alaitqaad.jpg">
-      <publishTime>05/18/2019 10:17:49</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/sharamgaah_muu_mein.jpg">
-      <publishTime>06/15/2019 08:50:52</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/waseela_shakhsi_zaeef.jpg">
-      <publishTime>06/15/2019 14:42:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/ziarat_qubuur_k_ahkaam.jpg">
-      <publishTime>06/15/2019 06:36:21</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/zinda_dafan.jpg">
-      <publishTime>05/18/2019 13:50:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/005_images/zinda_dafan_ref.jpg">
-      <publishTime>05/18/2019 13:56:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/006_a_images/hussain_r_a_ko_faraat_k_kinaary_shaheed.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/006_a_images/mureed_ki_satar_poshi_bahaijat_ul_israr.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/006_a_images/mureed_ki_satar_poshi_tazkra_baghdaad.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/006_a_images/shaaz_or_marfuu_hadees.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/006_a_images/tab_tak_jannat_mein_nahi_jaun_ga_jab_tak_mureed_nahi_jaty.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/fana_fi_shaikh_alahazrat_sharamnaak_waqia.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/haashia_saawi.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/hazir_o_nazir_by_qasim_nanotwi.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/hum_par_huzur_ki_wja_sy_azaab_nai_ata.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/hum_par_huzur_ki_wja_sy_azaab_nai_ata_tafsir_e_naeemi.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/kafiron_wali_ayaat_musalmano_par_lgana_khaarjion_ki_nishani.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/murda_sawal_karta_hy_k_kis_shakhs_ki_baat_ho_rahi_hy_MusnadAhmad.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/murda_sawal_kion_nahi_karta_k_kis_shakhs_ki_baat_ho_rahi_hy_jaaUl_Haqq.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/nabi_s_a_w_ummat_k_halaat_sy_waqif_hein_tafsir_usmani.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/namaz_mein_nabi_s_a_w_hazir_madaarj_un_nabuwa.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/qabar_mein_amaal_or_nabi_s_a_w_ka_istighfaar_musnad_bazzar.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/rasuul_ka_lafzi_matlab_paigham_ya_postman.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/shahid_hazir_nazir_alahazrat.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/007_images/shaik_ki_ruuh_mehduud_nahi_hy_deoband_imdadussuluuk.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/008_images/qabar_ko_butt_na_bnao.jpg">
-      <publishTime>04/25/2019 20:19:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/008_images/ummat_gumrahi_par_jama_nahi.jpg">
-      <publishTime>04/25/2019 21:34:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/015_images/97_dafa_allah_ki_ayaat_k_saath_mazaak.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/015_images/ilm_moin_ka_gumshuda_samaan_hy.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/015_images/shab_bistri_sy_pehly_teen_talaaqein_dyna.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/015_images/teen_talaaq_brabar_aik_talaaq_ka_syaaq_o_sabaaq.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/015_images/teen_talaaq_bukhari_baab.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/015_images/teen_talaaq_k_baad_bhi_bivi_sy_rujuu_kr_lo_zaeef.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/015_images/teen_talaaq_par_nabi_s_a_w_ghussy_hue.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/015_images/teen_talaaq_sahih_muslim_baab.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/021_images/bivi_ko_khhulaa_par_majbuur_karna_tafseer_ibn_e_kaseer.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/batil_masla_imam_k_baghair_bhi_fatiha_na_parho_bahar_e_shariat.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/batil_masla_imam_k_baghair_bhi_fatiha_na_parho_durr_e_mukhtar.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/batil_masla_imam_k_baghair_bhi_fatiha_na_parho_fatawa_aalamgiri.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/batil_masla_imam_k_baghair_bhi_fatiha_na_parho_radd_ul_mukhtar.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/fatiha_khalf_ul_imam_sy_mutalliq_shion_ka_muakkaf.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/fatiha_parhny_waly_k_muu_mein_angara_zaeef_hadees.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/har_haal_mein_qiraat_wajib_by_imam_bukhari.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/imam_bukhari_ka_fatiha_ka_moakkaf_from_juzz_al_qiraa.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/imam_k_peechy_qiraat_karny_waly_gadhon_ki_manind_hein_by_ibn_e_taimia.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/jehri_qiraat_mein_khamosh_raho_by_ahsan_ul_bayan.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/jehri_qiraat_mein_khamosh_raho_by_dr_israr_ahmad.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/jehri_qiraat_mein_khamosh_raho_by_molana_modudi.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/jehri_qiraat_mein_khamosh_raho_by_shah_wali_ullah_dehalwi.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/jehri_qiraat_mein_quran_naa_parho_by_imam_malik.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/jehri_qiraat_mein_quran_naa_parho_by_sunan_nasai.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/khamosh_raho_wali_ayat_namaz_k_liye_by_ibn_e_taimia.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/madrak_e_ruku_ka_masla.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/rakat_k_liye_haalat_e_qayam_zruri.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/sakton_mein_fatiha_ghaneemat_samjho.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/sakton_mein_fatiha_parho_2.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/084_images/sakton_mein_qiraat_karo.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/148_images/do_groh_dozakh.jpg">
-      <publishTime>04/25/2019 20:19:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/ALTAHQEEQ - Promo Video.mp4">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/al_tahqeeq_logo.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/al_tahqeeq_logo.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/icon_logo.png">
+      <publishTime>07/06/2019 22:21:10</publishTime>
+    </File>
+    <File Include="images/land_page_cover.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/land_page_cover.png">
-      <publishTime>06/23/2019 11:16:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Masla_icons/M_001_imam_ul_ambia_icon.jpg">
-      <publishTime>04/20/2019 18:11:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Masla_icons/M_005_hayat_un_nabi_icon.jpg">
-      <publishTime>04/21/2019 14:26:21</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Masla_icons/M_006_A_ilm_ul_ghaib_icon.jpg">
-      <publishTime>04/20/2019 18:06:51</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Masla_icons/M_007_hazir_o_nazir_icon.jpg">
-      <publishTime>04/20/2019 19:06:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Masla_icons/M_008_kalma_go_mushrik_icon.jpg">
-      <publishTime>04/22/2019 20:59:41</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Masla_icons/M_015_teen_talaaq_icon.jpg">
-      <publishTime>04/22/2019 21:14:41</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Masla_icons/M_021_bivion_k_haqooq_icon.jpg">
-      <publishTime>04/22/2019 20:09:59</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Masla_icons/M_070_B_rafa_ul_yadain_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Masla_icons/M_084_fatiha_khalf_ul_imam_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Masla_icons/M_148_sabhi_muslim_icon.jpg">
-      <publishTime>04/20/2019 19:32:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Social_icons/facebook.png">
+      <publishTime>07/07/2019 17:13:35</publishTime>
+    </File>
+    <File Include="images/Social_icons/gmail.png">
+      <publishTime>07/07/2019 17:36:49</publishTime>
+    </File>
+    <File Include="images/Social_icons/Instagram.png">
+      <publishTime>07/07/2019 17:06:58</publishTime>
+    </File>
+    <File Include="images/Social_icons/linkedin.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Social_icons/snapchat.png">
+      <publishTime>08/11/2019 12:20:33</publishTime>
+    </File>
+    <File Include="images/Social_icons/tumblr.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Social_icons/twitter.png">
+      <publishTime>07/07/2019 17:15:35</publishTime>
+    </File>
+    <File Include="images/Thumbnails/contact_us.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/default_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/document.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/Error_icon.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_001_imam_ul_ambia_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_005_hayat_un_nabi_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_006_A_ilm_ul_ghaib_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_007_hazir_o_nazir_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_008_kalma_go_mushrik_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_015_teen_talaaq_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_021_bivion_k_haqooq_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_070_B_rafa_ul_yadain_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_084_fatiha_khalf_ul_imam_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Thumbnails/M_148_sabhi_muslim_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/default_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/default_title_icon.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/default_title_icon1.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/Error_icon.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/eye.jpg">
+      <publishTime>07/07/2019 23:19:52</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_001_imam_ul_ambia_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_001_imam_ul_ambia_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_001_imam_ul_ambia_title_icon.png">
+      <publishTime>07/07/2019 23:10:49</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_005_hayat_un_nabi_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_005_hayat_un_nabi_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_005_hayat_un_nabi_title_icon.png">
+      <publishTime>07/07/2019 22:47:42</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_005_hayat_un_nabi_title_icon_old.png">
+      <publishTime>07/07/2019 22:33:14</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_006_A_ilm_ul_ghaib_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_006_A_ilm_ul_ghaib_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_006_A_ilm_ul_ghaib_title_icon.png">
+      <publishTime>07/07/2019 22:55:12</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_006_A_ilm_ul_ghaib_title_icon_only_goblet.png">
+      <publishTime>07/07/2019 23:07:13</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_007_hazir_o_nazir_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_007_hazir_o_nazir_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_007_hazir_o_nazir_title_icon.png">
+      <publishTime>07/07/2019 23:21:20</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_008_kalma_go_mushrik_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_008_kalma_go_mushrik_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_008_kalma_go_mushrik_title_icon.png">
+      <publishTime>07/07/2019 23:23:42</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_015_teen_talaaq_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_015_teen_talaaq_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_021_bivion_k_haqooq_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_021_bivion_k_haqooq_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_070_B_rafa_ul_yadain_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_148_sabhi_muslim_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="images/Title_icons/M_148_sabhi_muslim_title_icon.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>02/27/2019 05:50:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="PDFs/001-Imam ul Ambia %28S_A_W%29 ki Dawat-e-Quran.pdf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/001_P1.pdf">
-      <publishTime>02/27/2019 06:09:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/001_P2.pdf">
-      <publishTime>02/27/2019 06:09:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="PDFs/005-Mas%27alah HAYAAT-un-NABI %28SAW%29 say Motalliq Firqawaraana NAZRIYAAT ka TAHQEEQI jaizah.pdf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="PDFs/005-Mas%27alah HAYAAT-un-NABI %28S_A_W%29 say Motalliq Firqawaraana NAZRIYAAT ka TAHQEEQI jaizah.pdf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/005_P1.pdf">
-      <publishTime>06/23/2019 17:21:52</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/005_P2.pdf">
-      <publishTime>06/23/2019 17:21:52</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/005_P3.pdf">
-      <publishTime>06/23/2019 17:21:52</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/005_P4.pdf">
-      <publishTime>06/23/2019 17:21:52</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/006_A_P1.pdf">
-      <publishTime>02/27/2019 06:09:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/006_A_P2.pdf">
-      <publishTime>02/27/2019 06:09:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/007_P1.pdf">
-      <publishTime>02/27/2019 06:09:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/007_P2.pdf">
-      <publishTime>02/27/2019 06:09:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="PDFs/008-Mas%27alah Kia Ummat e Muhammadi %28S_A_W%29 Ka Musalman Shirk ker Sakta Hay.pdf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/008.pdf">
-      <publishTime>02/27/2019 06:09:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/015.pdf">
-      <publishTime>02/27/2019 06:09:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/021.pdf">
-      <publishTime>02/27/2019 06:09:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="PDFs/148-Mas%27alah Brailvi, Deobandi, Ahl-e-Hadith, Ahl-e-Tashayyo Sabhi MUSLIM hein KAFIR Nahin hain.pdf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/148.pdf">
-      <publishTime>02/27/2019 06:09:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="PDFs/179.pdf">
-      <publishTime>02/27/2019 06:09:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="PDFs/P4_Imam-ul-Ambiya-ki-Dawat-e-Quran.pdf">
+      <publishTime>07/11/2019 17:43:04</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>06/29/2019 11:25:17</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.map">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Scripts/myscript.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/respond.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/respond.min.js">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginFailure.cshtml">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/Manage.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>06/23/2019 22:15:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/_ChangePasswordPartial.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/_RemoveAccountPartial.cshtml">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Account/_SetPasswordPartial.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Error/NotFound.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>02/27/2019 06:09:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Home/AboutUs.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>06/29/2019 11:12:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Home/Disclaimer.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>06/23/2019 18:59:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Home/PrivacyPolicy.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Home/TermsAndConditions.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Masla/M_001.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Masla/M_001_imam_ul_ambia.cshtml">
-      <publishTime>06/23/2019 11:25:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Masla/M_005_hayat_un_nabi.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Masla/M_006_A_ilm_ul_ghaib.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Masla/M_007_hazir_o_nazir.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Masla/M_008_kalma_go_mushrik.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>08/11/2019 13:52:32</publishTime>
     </File>
     <File Include="Views/Masla/M_015_teen_talaaq.cshtml">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Masla/M_021_bivion_k_haqooq.cshtml">
-      <publishTime>06/23/2019 22:15:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Masla/M_070_B_rafa_ul_yadain.cshtml">
+      <publishTime>09/01/2019 21:26:11</publishTime>
+    </File>
+    <File Include="Views/Masla/M_084_fatiha_khalf_ul_imam.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Masla/M_148_sabhi_muslim.cshtml">
-      <publishTime>06/23/2019 18:22:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/AhadeesDB/attahiaat_mairaaj_ki_guftagu_hy.cshtml">
+      <publishTime>09/12/2019 07:07:04</publishTime>
+    </File>
+    <File Include="Views/Shared/AhadeesDB/attahiaat_sy_sab_bandon_par_salaam_pohanchta_hy.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/AhadeesDB/mairaaj_k_baad_intihai_paryshan_kion.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/AhadeesDB/masjid_ki_safai_karny_wali_orat.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/AhadeesDB/qabar_sy_hath_bahir_nikla.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/AhadeesDB/sattar_ansari_dhoky_sy_shaheed.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_assalamo_alaika_ya_rasuul.cshtml">
-      <publishTime>06/23/2019 18:18:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_attahiyat_quran_ki_tara_sikhaya.cshtml">
-      <publishTime>06/15/2019 06:21:23</publishTime>
+      <publishTime>09/12/2019 06:55:11</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_biddatein_kutty_ka_zehar.cshtml">
-      <publishTime>05/13/2019 18:26:25</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_do_qabar_walon_ko_azaab.cshtml">
-      <publishTime>05/18/2019 15:37:41</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_ghar_mimber_zameen_jannat.cshtml">
-      <publishTime>05/18/2019 18:44:46</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_hoz_par_intzar_partial.cshtml">
-      <publishTime>05/13/2019 18:23:41</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_jannat_k_aath_darwazy.cshtml">
-      <publishTime>05/18/2019 18:06:01</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_katib_e_wahi_murtad_partial.cshtml">
-      <publishTime>06/15/2019 22:02:13</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_mujh_par_jhuut_naa_bolo.cshtml">
       <publishTime>05/09/2019 18:33:39</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_qabar_ki_dua.cshtml">
-      <publishTime>06/15/2019 22:02:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_qabar_mein_namaz.cshtml">
-      <publishTime>06/15/2019 18:45:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_sharamgah_muu_mein.cshtml">
-      <publishTime>06/23/2019 18:19:50</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_ummat_gumrahi_par_jama_nahi.cshtml">
-      <publishTime>06/23/2019 18:20:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_waseela_shakhsi.cshtml">
-      <publishTime>06/15/2019 18:51:09</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/AhadeesDB/_yahudo_nasara_ki_pairwi.cshtml">
-      <publishTime>06/15/2019 19:07:59</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>03/02/2019 16:49:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/Sentences/inna_lillahi_wa_inna_ilaihi_raajeuun.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/Sentences/naa_main_wahabi_naa_mein_baabbi.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/ShortClips/005_hayat_un_nabi_clips/00_kin_kin_kitaabon_ko_parha_gya.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/ShortClips/005_hayat_un_nabi_clips/01_wafat_un_nabi_sy_mutalliq_sahih_or_mohtaat_aqeeda.cshtml">
+      <publishTime>07/12/2019 23:08:42</publishTime>
+    </File>
+    <File Include="Views/Shared/ShortClips/005_hayat_un_nabi_clips/asal_gustakh_e_rasuul_kon_hy_2_gustakhana_waqiaat.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout - Copy.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>06/28/2019 01:20:27</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
-      <publishTime>04/17/2019 08:43:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>06/23/2019 18:59:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>02/27/2019 06:09:45</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/29/2019 11:25:11</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
   </ItemGroup>
 </Project>

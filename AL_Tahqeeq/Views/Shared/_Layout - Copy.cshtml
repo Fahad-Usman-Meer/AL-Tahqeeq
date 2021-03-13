@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KNMX7LJ');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143255035-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-143255035-1');
+    </script>
+
+
+    <meta name="google-site-verification" content="aHuCnalmE3I-4sJ6YYBvuinl0ldO1c-8LQOOfhyQzrw" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @{
+        var currTitle = @ViewBag.Title;
+
+        var currTitleIconPath = @ViewBag.TitleIconPath;
+    }
+
+    @if (currTitleIconPath != null)
+    {
+        <link rel="icon" type="image/png" href="@currTitleIconPath">
+    }
+    else
+    {
+        <link rel="icon" type="image/png" href="~/images/Title_icons/default_title_icon.png">
+    }
+
+    <title>@ViewBag.Title</title>
+
+    @RenderSection("metatags", false)
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <script>
+        $(document).keydown(function (e) {
+            if (e.which === 123 || event.ctrlKey) {
+                // return false;
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNMX7LJ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <a id="return_to_top" title="Go To Top">
+        <i class="glyphicon glyphicon-arrow-up"></i>
+    </a>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+                <a href="~/Home/Index" class="navbar-brand">
+                    <img class="img-circle" style="height:20px" src="~/images/al_tahqeeq_logo.png" alt="altahqeeq logo" />
+                    @Common.SITE_NAME
+                </a>
+
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                  
+                    <!-- open close all headings -->
+                    <li>
+                        <a id="open_close_all_headings" href="javascript:open_close_all_headingsClick()" state="close" title="Open or Close All Headings">
+                            Open all Headings
+                        </a>
+                    </li>
+
+                </ul>
+
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="container body-content">
+
+        <div id="ibtadai_kalmaat">
+            <div class="red">
+                <h3 class="urdu_center">
+
+                    میرے مسُلمان بھائیو ! شیطانی وَسوَسوں کے باوجود اَپنی موت سے پہلے پہلے صِرف ایک مرتبہ اِس تحریر کو اوّل تا آخر لازمی، لازمی، لازمی پڑھ لیں! جَزاکمُ اللہ خیراً
+
+                </h3>
+            </div>
+
+            <hr />
+
+            <div class="row">
+                <div class="text-left col-sm-6 blue">
+                    Written By : Fahad Usman Meer
+                </div>
+                <div class="text-right urdu col-sm-6 blue">
+                    تصنیف کردہ : فہد عثمان میر
+                </div>
+            </div>
+            <hr />
+        </div>
+
+
+
+        @RenderBody()
+
+
+
+        @if (Session["currPage"] != null && !string.IsNullOrEmpty(Session["currPage"].ToString()))
+        {
+            <hr />
+            <br />
+            <div id="ikhtataami_dua">
+                <h3 class="urdu_center red">
+                    <span class="label label-danger">
+                        اختتامی دعا
+                    </span>
+                    <br />
+                    اللہ تعالیٰ سے دعا ہے کہ جو حقّ بات مَیں نے لکھی اُسے اللہ پاک ہمارے دِلوں میں راسخ فرمائے، اگر جذبات میں مُجھ سے کوئی غلط بات لکھی گئی تو اُسے ہمارے دِلوں سے مَحَو کر دے (یعنی مِٹا دے)، ہمیں کتاب و سُنت کی تعلیمات پر عمل کر کے دوسرے بھائیوں تک پہنچانے کی توفیق عطا فرمائے (آمین)۔
+                </h3>
+            </div>
+        }
+
+        <hr />
+
+        @if (true)// if (Session["currPage"] != null )
+        {
+
+            <div id="mutalliqa_or_eham_mazameen" class="row urdu_center">
+
+                <h1 class="urdu_center">
+                    <span class="label label-success">
+                        متعلقہ اور اہم مضامین
+                    </span>
+                </h1>
+
+                @{
+            var list = Common.List_of_Urdu_Maslas;
+
+            if (Session["currPage"] == null)
+            { Session["currPage"] = string.Empty; }
+
+            foreach (var masla in list)
+            {
+                if (!masla.Key.Equals(Session["currPage"].ToString(), StringComparison.OrdinalIgnoreCase))
+                {
+                    var imgLocation = string.Format("~/images/Masla_icons/{0}_icon.jpg", masla.Key);
+                    var maslaLink = string.Format("~/Masla/{0}", masla.Key);
+
+                    <a href="@Url.Content(maslaLink)">
+                        <div class="col-md-4">
+                            <blockquote>
+
+                                <img class="img-thumbnail" style="width:100%; height: 230px" src="@Url.Content(imgLocation)" alt="@masla.Key" />
+
+                                <h3 class="urdu_center"> @masla.Value </h3>
+
+                                @*<p>
+                                        @* @Html.ActionLink("???? ????????", "GetView", "Masla", new { viewName = masla.Key }, new { @class = "btn btn-primary" })
+
+                                        <label class="btn btn-default"> ???? ????????  &raquo;</label>
+                                    </p>*@
+                            </blockquote>
+                        </div>
+                    </a>
+                }
+            }
+                }
+            </div>
+
+        }
+
+        <div id="taalib_dua_and_social_links">
+            <hr />
+            <blockquote class="urdu_center">
+                طالبِ دُعا:  فہد عثمان میر
+                <br />
+
+                @* Testing Social Icons *@
+
+                <br />
+
+                <!-- Add font awesome icons -->
+
+                <div id="social_links" class="col-lg-12 text-center">
+
+                    <div class="col-md-2"> </div>
+
+                    <div class="col-md-1">
+                        <a href="https://web.facebook.com/altahqeeq/" target="_blank">
+                            <img src="~/images/Social_icons/facebook.png" title="Facebook" alt="facebook icon 48x48 | altahqeeq" />
+                        </a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="https://twitter.com/TahqeeqAl" target="_blank">
+                            <img src="~/images/Social_icons/twitter.png" title="Twitter" alt="twitter icon 48x48 | altahqeeq" />
+                        </a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="https://www.instagram.com/al_tahqeeq/" target="_blank">
+                            <img src="~/images/Social_icons/instagram.png" title="Instagram" alt="instagram icon 48x48 | altahqeeq" />
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="mailto:support@altahqeeq.com" target="_blank">
+                            <img src="~/images/Social_icons/gmail.png" title="G-Mail" alt="gmail icon 48x48 | altahqeeq" />
+                        </a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="https://www.linkedin.com/in/al-tahqeeq-altahqeeq-60553b190/" target="_blank">
+                            <img src="~/images/Social_icons/linkedin.png" title="Linkd-In" alt="LinkedIn icon 48x48 | altahqeeq" />
+                        </a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="https://altahqeeq.tumblr.com/" target="_blank">
+                            <img src="~/images/Social_icons/tumblr.png" title="Tumblr" alt="tumblr icon 48x48 | altahqeeq" />
+                        </a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="https://www.snapchat.com/add/al-tahqeeq" target="_blank">
+                            <img src="~/images/Social_icons/snapchat.png" title="Snapchat" alt="tumblr icon 48x48 | altahqeeq" />
+                        </a>
+                    </div>
+
+                    <div class="col-md-2"> </div>
+
+                </div>
+            </blockquote>
+            <br />
+            <hr />
+        </div>
+
+
+
+        @{
+            string version = typeof(AL_Tahqeeq.MvcApplication).Assembly.GetName().Version.ToString();
+            version = version.Substring(0, version.Length - 4);
+        }
+
+
+        <div id="version_footer">
+            <footer>
+                <p>
+                    &copy;
+                    @DateTime.Now.Year -
+                    @Common.SITE_NAME v(@version)
+                </p>
+            </footer>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/myscript")
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <div id="copiedToClipboard">Link Copied to Clipboard.</div>
+</body>
+
+
+
+
+
+</html>

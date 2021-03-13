@@ -1,0 +1,45 @@
+﻿
+
+@using AL_Tahqeeq
+
+@{
+    ViewBag.Title = @ViewBag.englishName;
+
+}
+
+@section metatags
+{
+    <meta name="test" content="test" />
+    <meta name="test2" content="test2" />
+}
+
+@*Youtube Link: 👇👇
+    https://youtu.be/J1MX5iiJVDA
+*@
+
+
+<div class="text-center green">
+    <h2> @ViewBag.englishName <br /> </h2>
+    <h2 class="urdu_center">
+        @ViewBag.urduName
+    </h2>
+</div>
+
+<hr />
+
+
+<div class="text-center">
+    @{
+        var imgLocation = string.Format("~/images/Masla_icons/{0}_icon.jpg", enmMaslaKeys.M_070_B_rafa_ul_yadain.ToString());
+    }
+    <a href="@Url.Content(imgLocation)" target="_blank">
+        <img class="img-thumbnail" style="width:100%;" src="@Url.Content(imgLocation)" alt="teen talaq halaala or haraama" />
+    </a>
+    <h3>
+        @Common.Bismillah_Kalmaat
+    </h3>
+</div>
+
+<div class="jumbotron">
+        <h1>Coming Soon....</h1>    
+</div>

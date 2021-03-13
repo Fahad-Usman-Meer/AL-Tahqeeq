@@ -15,7 +15,7 @@ namespace AL_Tahqeeq
 
             routes.MapRoute(
                 name: "Masla",
-                url: "Masla/{viewName}",
+                url: "Masla/{viewName}/",
                 defaults: new { controller = "Masla", action = "GetView" }
             );
 
